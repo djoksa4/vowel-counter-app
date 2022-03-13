@@ -1,6 +1,6 @@
 class View {
-  #checkButton = document.querySelector(".btn--check");
-  #textInput = document.querySelector(".text--input");
+  #checkButton = document.querySelector(".input__btn");
+  #textInput = document.querySelector(".input__text");
 
   addHandlerTakeInputClick(handler) {
     this.#checkButton.addEventListener(

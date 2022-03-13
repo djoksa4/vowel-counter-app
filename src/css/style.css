@@ -1,16 +1,16 @@
-.container {
+.input {
   margin: 0 50px 100px;
   padding: 0 100px 250px;
   text-align: center;
 }
 
-h1 {
+.input h1 {
   font-size: 75px;
   font-weight: 200;
   margin-bottom: 20px;
 }
 
-.text--input {
+.input__text {
   width: 60%;
   height: 1rem;
   border: 1px solid lightgray;
@@ -19,7 +19,7 @@ h1 {
   font-weight: 600;
 }
 
-.btn--check {
+.input__btn {
   display: block;
   background-color: #0d9e31;
   color: white;
@@ -32,8 +32,9 @@ h1 {
   cursor: pointer;
 }
 
-.btn--check:hover {
+.input__btn:hover {
   border: 1px #0d9e31 solid;
   background-color: white;
   color: #0d9e31;
 }
+/*# sourceMappingURL=style.css.map */
